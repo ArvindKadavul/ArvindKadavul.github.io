@@ -1,1 +1,17 @@
-This is my page
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Help Chris!</title>
+    <script>
+      function loadCorrectPage() {
+        let userAgent = navigator.userAgent;
+		let url = 'https://manisekaranarvindk.wixsite.com/chris?User-Agent=' + userAgent
+		document.location = url;
+      }
+     
+    </script>
+	<body onload="loadCorrectPage()" />
+  </head>
+  
+  
